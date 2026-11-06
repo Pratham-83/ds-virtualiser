@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 
+import BSTViz from "./components/BSTViz"
 import LinkedListViz from "./components/LinkedListViz"
 import QueueViz from "./components/QueueViz"
 import StackViz from "./components/StackViz"
@@ -31,6 +32,12 @@ function App() {
         <h2 className="text-xl font-semibold mb-4 text-gray-300">Linked List</h2>
         <LinkedListViz/>
       </section>
+
+      <section className="mb-12">
+  <h2 className="text-xl font-semibold mb-4 text-gray-300">BST</h2>
+  <BSTViz />
+</section>
+
     </div>
   )
 }
